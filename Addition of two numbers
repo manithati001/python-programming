@@ -1,0 +1,11 @@
+# python program to print addition of two numbers
+
+n1=int(input("Enter the first number:"))
+n2=int(input("Enter the second number:"))
+addition=n1+n2
+print("Addition of two numbers =",addition)
+
+output:
+Enter the first number:2
+Enter the second number:3
+Addition of two numbers = 5
