@@ -1,0 +1,11 @@
+# python program to check the given number is even or odd
+
+n=int(input("Enter the number:"))
+if n%2==0:
+    print("Even number")
+else:
+    print("Odd number")
+
+output:
+Enter the number:-53
+Odd number
