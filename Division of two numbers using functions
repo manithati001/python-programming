@@ -1,0 +1,16 @@
+# python program to print division of two numbers using functions
+
+def my_function(n1,n2):
+    if n2!=0:
+        quotient=n1/n2
+        print("Division of two numbers =",quotient)
+    else:
+        print("Error! division not possible")
+n1=int(input("Enter the first number:"))
+n2=int(input("Enter the second number:"))
+my_function(n1,n2)
+
+output:
+Enter the first number:4
+Enter the second number:0
+Error! division not possible
