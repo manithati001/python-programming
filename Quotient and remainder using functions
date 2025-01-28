@@ -1,0 +1,18 @@
+# python program to find the quotient and remainder of two numbers using functions
+
+def my_function(dividend,divisor):
+    if divisor!=0:
+        quotient=dividend/divisor
+        remainder=dividend%divisor
+        print("Quotient =",quotient)
+        print("Remainder =",remainder)
+    else:
+        print("Error! cant find")
+dividend=int(input("Enter the dividend value:"))
+divisor=int(input("Enter the divisor value:"))
+my_function(dividend,divisor)
+
+output:
+Enter the dividend value:2
+Enter the divisor value:0
+Error! cant find
