@@ -1,0 +1,11 @@
+# python program to print the square of a number using functions
+
+def my_function(n):
+    square=n*n
+    print("Square of a number =",square)
+n=int(input("Enter the number:"))
+my_function(n)
+
+output:
+Enter the number:4
+Square of a number = 16
