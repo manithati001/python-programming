@@ -1,0 +1,9 @@
+# python program to div of two numbers
+
+n1=10
+n2=2
+div=n1/n2
+print("Div of two numbers =",div)
+
+output:
+Div of two numbers = 2.0
