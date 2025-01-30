@@ -1,0 +1,13 @@
+# python program to ckeck the character is alphabet or not using isalpha and functions
+
+def my_function(c):
+    if c.isalpha():
+        print("It is an alphabet")
+    else:
+        print("It is not an alphabet")
+c=input("Enter the character:")
+my_function(c)
+
+output:
+Enter the character:4
+It is not an alphabet
