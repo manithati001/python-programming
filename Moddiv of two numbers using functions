@@ -1,0 +1,11 @@
+# python program to moddiv of two numbers using functions
+
+def my_function(n1,n2):
+    moddiv=n1%n2
+    print("Moddiv of two numbers =",moddiv)
+n1=10
+n2=2
+my_function(n1,n2)
+
+output:
+Moddiv of two numbers = 0
