@@ -1,0 +1,13 @@
+# python program to check the given character is alphabet or not using functions
+
+def my_function(c):
+    if c>='a' and c<='z' or c>='A' and c<='Z':
+        print("It is an alphabet")
+    else:
+        print("It is not an alphabet")
+c=input("Enter the character:")
+my_function(c)
+
+output:
+Enter the character:d
+It is an alphabet
