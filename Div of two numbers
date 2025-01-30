@@ -6,4 +6,4 @@ div=n1/n2
 print("Div of two numbers =",div)
 
 output:
-Div of two numbers = 2.0
+Div of two numbers = 5.0
