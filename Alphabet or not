@@ -1,0 +1,11 @@
+# python program to print given character is alphabet or not
+
+c=input("Enter the character:")
+if c>='a' and c<='z' or c>='A' and c<='Z':
+    print("It is an alphabet")
+else:
+    print("It is not an alphabet")
+
+output:
+Enter the character:e
+It is an alphabet
