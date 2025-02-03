@@ -1,0 +1,15 @@
+# python program to check two string equal or not using functions
+
+def my_function(n1,n2):
+    if n1==n2:
+        print("Two strings are equal")
+    else:
+        print("Two strings are not equal")
+n1=input("Enter the first string:")
+n2=input("Enter the second string:")
+my_function(n1,n2)
+
+output:
+Enter the first string:python
+Enter the second string:java
+Two strings are not equal
