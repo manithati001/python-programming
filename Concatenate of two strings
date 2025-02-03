@@ -1,0 +1,11 @@
+# python program to concatenate of two strings
+
+n1=input("Enter the first string:")
+n2=input("Enter the second string:")
+concatenate=n1+n2
+print("Concatenate of two strings =",concatenate)
+
+output:
+Enter the first string:python 
+Enter the second string:programming
+Concatenate of two strings = pythonprogramming
