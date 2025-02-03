@@ -1,0 +1,13 @@
+# python program to check two strings equal or not
+
+n1=input("Enter the first string:")
+n2=input("Enter the second string:")
+if n1==n2:
+    print("Two strings are equal")
+else:
+    print("Two strings are not equal")
+
+output:
+Enter the first string:python
+Enter the second string:python
+Two strings are equal
