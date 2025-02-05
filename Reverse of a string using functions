@@ -1,0 +1,11 @@
+# python program to reverse a string using functions
+
+def my_function(s1):
+    reversed=s1[::-1]
+    print("Reversed string =",reversed)
+s1=input("Enter the string:")
+my_function(s1)
+
+output:
+Enter the string:python
+Reversed string = nohtyp
