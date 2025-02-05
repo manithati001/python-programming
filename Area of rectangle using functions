@@ -1,0 +1,13 @@
+# python program to find the area of rectangle using functions
+
+def my_function(length,breadth):
+    area=length*breadth
+    print("Area of rectangle =",area)
+length=int(input("Enter the length of rectangle:"))
+breadth=int(input("Enter the breadth of rectangle:"))
+my_function(length,breadth)
+
+output:
+Enter the length of rectangle:30
+Enter the breadth of rectangle:20
+Area of rectangle = 600
