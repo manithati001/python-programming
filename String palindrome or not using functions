@@ -1,0 +1,14 @@
+# string palindrome or not using functions
+
+def my_function(s1):
+    reversed=s1[::-1]
+    if reversed==s1:
+        print("String is palindrome")
+    else:
+        print("String is not palindrome")
+s1=input("Enter the string:")
+my_function(s1)
+
+output:
+Enter the string:madam
+String is palindrome
