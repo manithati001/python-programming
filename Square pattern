@@ -1,0 +1,14 @@
+""" python program to print pattern 
+****
+****
+****
+**** """
+
+for i in range(4):
+    print("*"*8)
+
+output:
+********
+********
+********
+********
