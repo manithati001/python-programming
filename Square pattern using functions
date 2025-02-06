@@ -1,0 +1,12 @@
+# python program to print the square pattern using functions
+
+def my_function():
+    for i in range(4):
+        print("*"*8)
+my_function()
+
+output:
+********
+********
+********
+********
