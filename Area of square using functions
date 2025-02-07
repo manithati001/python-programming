@@ -1,0 +1,11 @@
+# python program to find the area of square using functions
+
+def my_function(side):
+    area=side*side
+    print("Area of square =",area)
+side=int(input("Enter the side of the square:"))
+my_function(side)
+
+output:
+Enter the side of the square:4
+Area of square = 16
