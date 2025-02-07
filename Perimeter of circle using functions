@@ -1,0 +1,12 @@
+# python program to find the perimeter of circle using functions
+
+def my_function(radius):
+    pi=3.14
+    perimeter=2*pi*radius
+    print("Perimeter of circle =",perimeter)
+radius=int(input("Enter the radius of circle:"))
+my_function(radius)
+
+output:
+Enter the radius of circle:5
+Perimeter of circle = 31.400000000000002
