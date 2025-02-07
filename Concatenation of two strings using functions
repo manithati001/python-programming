@@ -1,0 +1,14 @@
+# python program to find the concatenation of two strings using functions
+
+def my_function(s1,s2):
+    concatenation=s1+s2
+    print("Concatenation of two strings =",concatenation)
+s1=input("Enter the first string:")
+s2=input("Enter the second string:")
+my_function(s1,s2)
+
+
+output:
+Enter the first string:python
+Enter the second string:programming
+Concatenation of two strings = pythonprogramming
