@@ -1,0 +1,12 @@
+# python program to find the area of circle using functions
+
+def my_function(radius):
+    pi=3.14
+    area=pi*radius*radius
+    print("Area of circle =",area)
+radius=int(input("Enter the radius of circle:"))
+my_function(radius)
+
+output:
+Enter the radius of circle:5
+Area of circle = 78.5
