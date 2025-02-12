@@ -1,0 +1,11 @@
+# python program to check the given string contains numbers and charcters or not
+
+s=input("Enter the string:")
+if s.isalnum():
+    print("Given string contains numbers and alphabets")
+else:
+    print("Given string does not contains numbers and alphabets")
+
+output:
+Enter the string:123sdf
+Given string contains numbers and alphabets
