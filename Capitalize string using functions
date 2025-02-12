@@ -1,0 +1,11 @@
+# python program to capitalize a string using functions
+
+def my_function(s):
+    caps=s.capitalize()
+    print("Capitalized string =",caps)
+s=input("Enter the string:")
+my_function(s)
+
+output:
+Enter the string:python
+Capitalized string = Python
